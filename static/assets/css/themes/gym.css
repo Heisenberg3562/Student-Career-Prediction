@@ -1,0 +1,114 @@
+:root {
+  --color-primary: #fa7c31;
+  --color-gradient-start: #fe9418;
+  --color-gradient-stop: #f5634b;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.9em;
+  color: #919191;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.h1,
+h1 {
+  font-size: 42px;
+  line-height: 1.4em;
+  font-weight: 700;
+}
+
+.h2,
+h2 {
+  font-size: 34px;
+  line-height: 1.4em;
+}
+
+.h3,
+h3 {
+  font-size: 24px;
+  line-height: 1.6em;
+}
+
+.h4,
+h4 {
+  font-size: 21px;
+  line-height: 1.6em;
+}
+
+.h5,
+h5 {
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+.h6,
+h6 {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.main-nav > li > a {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.main-header .btn-naked {
+  color: #fff;
+}
+
+.main-header .btn-naked:hover {
+  color: #f5634b;
+}
+
+.main-header .btn-bordered {
+  color: #f5634b;
+}
+
+.main-header .btn-bordered:hover {
+  color: #fff;
+}
+
+.main-header.megamenu-scheme-light .btn-naked {
+  color: #3d3d3d;
+}
+
+.main-header.megamenu-scheme-light .btn-bordered {
+  color: #3d3d3d;
+  border-color: #3d3d3d;
+}
+
+.main-footer {
+  background: #181a23;
+  color: #828593;
+}
+
+.main-footer a:not(.btn) {
+  color: #828593;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fa7c31;
+}

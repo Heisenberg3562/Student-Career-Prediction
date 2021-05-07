@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Basier Square';
+  src: url("../../fonts/basiersquare-regular-webfont.html") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+:root {
+  --color-primary: #348ef5;
+  --color-gradient-start: #348ef5;
+  --color-gradient-stop: #348ef5; }
+
+body {
+  font-family: 'Basier Square', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  color: #7f7f7f; }
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #000; }
+
+.h1,
+h1 {
+  font-size: 35px;
+  font-weight: 700; }
+
+.h2,
+h2 {
+  font-size: 42px;
+  line-height: 1.484em; }
+
+.h3,
+h3 {
+  font-size: 35px;
+  line-height: 1.2em; }
+
+.h4,
+h4 {
+  font-size: 30px;
+  line-height: 1.2em; }
+
+.h5,
+h5 {
+  font-size: 25px;
+  line-height: 1.2em; }
+
+.h6,
+h6 {
+  font-size: 20px;
+  line-height: 1.2em; }
+
+.main-nav > li > a {
+  font-size: 12px;
+  line-height: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff; }
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: rgba(255, 255, 255, 0.85); }
+
+.main-footer {
+  padding-top: 70px;
+  background-color: #30333A;
+  color: #92959B; }
+  .main-footer a:not(.btn) {
+    color: rgba(255, 255, 255, 0.6); }
+    .main-footer a:not(.btn):hover {
+      color: #fff; }
+
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #fff !important; }
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+  .mainbar-wrap.is-stuck .main-nav > li > a,
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    color: #424242 !important; }
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    border-color: #424242 !important; }
+  .is-stuck .btn {
+    color: #fff;
+    border-color: #5174fd; }
+  .is-stuck .btn.btn-solid {
+    background-color: #5174fd; }
+  .is-stuck .btn:hover {
+    border-color: #3a3a3a;
+    color: #fff; }
+  .is-stuck .btn:hover, .is-stuck .btn.btn-solid:hover {
+    background-color: #3a3a3a; } }

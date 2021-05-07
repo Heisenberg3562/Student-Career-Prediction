@@ -1,0 +1,118 @@
+:root {
+  --color-primary: #27ae60;
+  --color-secondary: #4869e8;
+  --color-gradient-start: #4869e8;
+  --color-gradient-stop: #27ae60;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #838689;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
+}
+
+.h1,
+h1 {
+  font-size: 45px;
+  line-height: 1.244em;
+  font-weight: 300;
+}
+
+.h2,
+h2 {
+  font-size: 40px;
+  line-height: 1.285em;
+  font-weight: 300;
+}
+
+.h3,
+h3 {
+  font-size: 35px;
+  line-height: 1.342em;
+  font-weight: 400;
+}
+
+.h4,
+h4 {
+  font-size: 30px;
+  line-height: 1.35em;
+  font-weight: 400;
+}
+
+.h5,
+h5 {
+  font-size: 25px;
+  line-height: 1.35em;
+  font-weight: 400;
+}
+
+.h6,
+h6 {
+  font-size: 21px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+.main-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+  padding: 30px 100px;
+}
+
+.main-nav > li > a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.main-nav > li.is-active > a, .main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #fff;
+}
+
+.header-module .social-icon a {
+  opacity: 0.7;
+}
+.header-module .social-icon a:hover {
+  opacity: 1;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form .ui-selectmenu-button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #f3f5f6;
+  color: #6f7274;
+  border-color: #f7f9fb;
+}
+
+.testi-avatars .carousel-item:not(.is-selected) {
+  opacity: 0.3;
+}
+
+.main-footer {
+  background-color: #343535;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-footer a:not(.btn) {
+  color: rgba(255, 255, 255, 0.6);
+}
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Basier Square';
+  src: url("../../fonts/basiersquare-regular-webfont.html") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #e7a285;
+  --color-gradient-start: #e7a285;
+  --color-gradient-stop: #e7a285;
+}
+
+body {
+  font-family: 'Basier Square', sans-serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  font-size: 15px;
+  color: #5b6674;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 600;
+  color: #443227;
+}
+
+.h1, h1 {
+  line-height: 1.2em;
+  font-size: 52px;
+}
+
+.h2, h2 {
+  line-height: 1.083em;
+  font-size: 48px;
+}
+
+.h3, h3 {
+  line-height: 1.2em;
+  font-size: 32px;
+}
+
+.h4, h4 {
+  line-height: 1.2em;
+  font-size: 25px;
+}
+
+.h5, h5 {
+  line-height: 1.2em;
+  font-size: 21px;
+}
+
+.h6, h6 {
+  line-height: 1.2em;
+  font-size: 18px;
+}
+
+.main-nav,
+.btn {
+  font-family: 'futura-pt', sans-serif;
+}
+
+.main-nav > li > a {
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.main-nav > li > a .link-ext {
+  background-color: #fff;
+}
+
+.main-nav > li > a:hover {
+  color: #ffe7d1;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #fff;
+}
+
+.main-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:not(.btn) {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}
+
+.main-footer .ld-sf input {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-footer .ld-sf input:focus {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.main-footer .ld-sf button {
+  font-size: 23px;
+}
+
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #fff !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .main-nav > li > a {
+    color: #000 !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a:hover,
+  .mainbar-wrap.is-stuck .main-nav > li > a:hover {
+    color: var(--color-primary) !important;
+  }
+}

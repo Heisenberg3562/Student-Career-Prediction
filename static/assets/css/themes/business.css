@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Basier Square';
+  src: url("../../fonts/basiersquare-regular-webfont.html") format("woff2"), url("../../fonts/basiersquare-regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: #ffc70a;
+  --color-secondary: #0e305d;
+  --color-gradient-start: #ffc70a;
+  --color-gradient-stop: #ffcd2b;
+}
+
+body {
+  font-family: 'Basier Square', sans-serif;
+  font-weight: 400;
+  line-height: 1.7em;
+  font-size: 15px;
+  color: #808996;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: #0e305d;
+}
+
+.h1, h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.h2, h2 {
+  font-size: 37px;
+  line-height: 1.2em;
+}
+
+.h3, h3 {
+  font-size: 26px;
+  line-height: 1.25em;
+}
+
+.h4, h4 {
+  font-size: 24px;
+  line-height: 1.45em;
+}
+
+.h5, h5 {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.h6, h6 {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form .ui-selectmenu-button {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus,
+.contact-form .ui-selectmenu-button:focus {
+  color: #fff;
+}
+
+.main-footer {
+  background-color: #161b27;
+  color: #7e8390;
+  padding-top: 55px;
+}
+
+.main-footer a:not(.btn) {
+  color: #7e8390;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}
+
+@media (min-width: 1200px) {
+  .main-nav > li a {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.025em;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .main-nav > li.is-active > a,
+  .main-nav > li.current-menu-item > a,
+  .main-nav > li:hover > a,
+  .main-nav > li > a:hover {
+    color: white;
+  }
+}

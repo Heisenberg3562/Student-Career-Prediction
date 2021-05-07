@@ -1,0 +1,82 @@
+:root {
+  --color-primary: #fd7250;
+  --color-secondary: #2ed47c;
+  --color-gradient-start: #fd7250;
+  --color-gradient-stop: #fd7250;
+}
+
+body {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 18px;
+  color: #808291;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 700;
+  color: #181b31;
+}
+
+.h1, h1 {
+  line-height: 1.111em;
+  font-size: 42px;
+}
+
+.h2, h2 {
+  line-height: 1.111em;
+  font-size: 36px;
+}
+
+.h3, h3 {
+  line-height: 1.25em;
+  font-size: 30px;
+}
+
+.h4, h4 {
+  line-height: 1.5em;
+  font-size: 22px;
+}
+
+.h5, h5 {
+  line-height: 1.5em;
+  font-size: 19px;
+}
+
+.h6, h6 {
+  line-height: 1.5em;
+  font-size: 17px;
+}
+
+.main-nav > li > a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #fff;
+}
+
+.main-nav > li > a .link-ext {
+  background-color: #fff;
+}
+
+.main-footer a:not(.btn) {
+  color: #777880;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #000;
+}

@@ -1,0 +1,111 @@
+:root {
+  --color-primary: #e25858;
+  --color-gradient-start: #e25858;
+  --color-gradient-stop: #e25858;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: #808291;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #181b31;
+}
+
+.h1,
+h1 {
+  font-size: 52px;
+  line-height: 1.2em;
+}
+
+.h2,
+h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+}
+
+.h3,
+h3 {
+  font-size: 36px;
+  line-height: 1.2em;
+}
+
+.h4,
+h4 {
+  font-size: 30px;
+  line-height: 1.333em;
+}
+
+.h5,
+h5 {
+  font-size: 21px;
+  line-height: 1.2em;
+}
+
+.h6,
+h6 {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.main-nav > li > a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.75);
+  text-transform: uppercase;
+}
+
+.main-nav > li > a .link-ext {
+  background: var(--color-primary);
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: var(--color-primary);
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea,
+.contact-form .ui-selectmenu-button {
+  border-color: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  color: #fff;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus,
+.contact-form .ui-selectmenu-button:focus {
+  color: #fff;
+}
+
+.main-footer {
+  background-color: #30333a;
+  color: #92959b;
+  padding-top: 80px;
+}
+
+.main-footer a:not(.btn) {
+  color: inherit;
+}
+
+.main-footer a:not(.btn):hover {
+  color: #fff;
+}

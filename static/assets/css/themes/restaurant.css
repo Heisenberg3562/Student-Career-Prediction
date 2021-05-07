@@ -1,0 +1,149 @@
+:root {
+  --color-primary: #a3816a;
+  --color-gradient-start: #a3816a;
+  --color-gradient-stop: #a3816a; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.53em;
+  color: #67615d; }
+
+#content {
+  background-color: #000; }
+  #content .vc_row {
+    background-color: #f4f4ef; }
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'interface', sans-serif;
+  font-weight: 300;
+  color: #503c2f; }
+
+.h1,
+h1 {
+  font-size: 52px;
+  line-height: 1.2em; }
+
+.h2,
+h2 {
+  font-size: 42px;
+  line-height: 1.2em; }
+
+.h3,
+h3 {
+  font-size: 38px;
+  line-height: 1.2em; }
+
+.h4,
+h4 {
+  font-size: 34px;
+  line-height: 1.2em; }
+
+.h5,
+h5 {
+  font-family: 'Herr Von Muellerhoff', serif;
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #c19a5d; }
+
+.h6,
+h6 {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #c19a5d; }
+
+.main-nav > li > a {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: rgba(255, 255, 255, 0.8); }
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #fff; }
+
+.main-header .header-module .btn {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.85); }
+  .main-header .header-module .btn:hover {
+    color: #fff; }
+
+.main-header .header-module .social-icon {
+  font-size: 22px; }
+  .main-header .header-module .social-icon a {
+    color: rgba(255, 255, 255, 0.6); }
+    .main-header .header-module .social-icon a:hover {
+      color: #fff; }
+
+.navbar-brand {
+  padding-left: 85px;
+  padding-right: 100px; }
+
+.btn {
+  font-size: 13px; }
+  .btn.text-uppercase {
+    letter-spacing: 0.2em; }
+
+.fancy-title h5 {
+  font-size: 80px; }
+
+.main-footer {
+  background-color: #191919;
+  color: rgba(255, 255, 255, 0.5); }
+  .main-footer a:not(.btn) {
+    color: rgba(255, 255, 255, 0.5); }
+    .main-footer a:not(.btn):hover {
+      color: #fff; }
+  .main-footer hr {
+    border-color: #333; }
+  .main-footer .widget_title {
+    margin-bottom: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: #bb9857; }
+  .main-footer .ld-sf input {
+    color: rgba(242, 242, 242, 0.5);
+    border-color: rgba(242, 242, 242, 0.5); }
+    .main-footer .ld-sf input:focus {
+      color: #fff;
+      border-color: #fff; }
+  .main-footer .social-icon a {
+    color: #ffffff;
+    background-color: #595959; }
+    .main-footer .social-icon a:hover {
+      background-color: var(--color-primary); }
+
+@media screen and (min-width: 768px) {
+  .fancy-title h2 {
+    font-size: 52px;
+    line-height: 1.13em; } }
+
+@media screen and (max-width: 767px) {
+  h1, .h1 {
+    font-size: 40px; }
+  h2, .h2 {
+    font-size: 32px; }
+  h3, .h3 {
+    font-size: 24px; }
+  h4, .h4 {
+    font-size: 18px; }
+  h5, .h5 {
+    font-size: 16px; }
+  h6, .h6 {
+    font-size: 15px; }
+  .fancy-title h5 {
+    font-size: 60px; } }

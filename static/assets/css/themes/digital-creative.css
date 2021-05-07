@@ -1,0 +1,74 @@
+:root {
+  --color-primary: #ffb09f;
+  --color-secondary: #34dbc5;
+  --color-gradient-start: #ffa5cd;
+  --color-gradient-stop: #ffba83;
+  --color-gradient-start-secondary: #4fda91;
+  --color-gradient-stop-secondary: #34dbc5;
+}
+
+body {
+  font-family: 'Glacial Indifference', sans-serif;
+  line-height: 1.5em;
+  font-size: 18px;
+  color: #808291;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Glacial Indifference', sans-serif;
+  color: #0a0a0a;
+}
+
+.h1, h1 {
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 53px;
+}
+
+.h2, h2 {
+  font-weight: 400;
+  line-height: 1.2em;
+  font-size: 48px;
+}
+
+.h3, h3 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.h4, h4 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.h5, h5 {
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 21px;
+}
+
+.h6, h6 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 17px;
+  color: #a7a9b8;
+}
+
+.main-nav > li > a {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #181b31;
+  text-transform: uppercase;
+}
+
+.btn-bordered {
+  color: #ffb09f;
+}

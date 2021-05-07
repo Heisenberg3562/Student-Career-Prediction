@@ -1,0 +1,123 @@
+:root {
+  --color-primary: #ff7a4b;
+  --color-secondary: #2493e0;
+  --color-gradient-start: #ff7a4b;
+  --color-gradient-stop: #ff7a4b;
+  --color-link: #0c3e72;
+  --color-link-hover: var(--color-primary), #ff7a4b;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #828282;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #0c3e72;
+}
+
+.h1,
+h1 {
+  line-height: 1.4em;
+  font-size: 48px;
+}
+
+.h2,
+h2 {
+  font-size: 38px;
+  line-height: 1.4em;
+}
+
+.h3,
+h3 {
+  font-size: 26px;
+  line-height: 1.6em;
+}
+
+.h4,
+h4 {
+  font-size: 23px;
+  line-height: 1.7em;
+}
+
+.h5,
+h5 {
+  font-size: 19px;
+  line-height: 1.8em;
+}
+
+.h6,
+h6 {
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.main-nav > li > a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #0b2a4a;
+}
+.main-nav > li > a .link-ext {
+  background-color: #ff7a4b;
+}
+.main-nav > li.is-active > a, .main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #ff7a4b;
+}
+
+.secondarybar-wrap {
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: rgba(12, 62, 114, 0.08);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+.secondarybar-wrap .header-module {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.header-module .ld-v-sep-inner {
+  background-color: #e5e5e5;
+}
+
+#travel-testimonials-title .flickity-button {
+  color: #fff;
+  background: #181b31;
+}
+#travel-testimonials-title .flickity-button svg {
+  stroke: currentColor;
+}
+#travel-testimonials-title .flickity-button:hover {
+  background-color: var(--color-secondary);
+}
+
+.main-footer {
+  color: #a7a9b8;
+}
+.main-footer a:not(.btn) {
+  color: #a7a9b8;
+}
+.main-footer a:not(.btn):hover {
+  color: var(--color-primary);
+}
+.main-footer .social-icon a, .main-footer .social-icon a:hover {
+  color: #fff;
+}
+.main-footer .widget-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,86 @@
+:root {
+  --color-primary: #ff1839;
+  --color-gradient-start: #ff1839;
+  --color-gradient-stop: #ff1839;
+}
+
+body {
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  font-size: 1em;
+  color: #808291;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-weight: 400;
+  line-height: 1.2em;
+  color: #181b31;
+}
+
+.h1, h1,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Glacial Indifference', sans-serif;
+}
+
+.h2, h2,
+.h3, h3,
+.h4, h4 {
+  font-family: 'Prata';
+}
+
+.h1,
+h1 {
+  font-size: 52px;
+}
+
+.h2,
+h2 {
+  font-size: 40px;
+}
+
+.h3,
+h3 {
+  font-size: 35px;
+}
+
+.h4,
+h4 {
+  line-height: 1.333em;
+  font-size: 30px;
+}
+
+.h5,
+h5 {
+  font-size: 21px;
+}
+
+.h6,
+h6 {
+  font-size: 18px;
+}
+
+.main-nav > li > a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-nav > li > a .link-ext {
+  background: var(--color-primary);
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: white;
+}
