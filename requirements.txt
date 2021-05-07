@@ -121,9 +121,6 @@ pyOpenSSL==20.0.1
 pyparsing==2.4.7
 pyperclip==1.8.0
 PyPrind==2.11.2
-PyQt5==5.13.2
-PyQt5-sip==12.7.1
-pyqt5-tools==5.13.2.1.6rc1
 PyRect==0.1.4
 pyrsistent==0.17.3
 PyScreeze==0.1.26
