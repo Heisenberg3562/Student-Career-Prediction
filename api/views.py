@@ -16,5 +16,5 @@ def apiOverview(request):
 
 @api_view(['GET'])
 def predict(request):
-    id = request['id']
-    return JsonResponse(id, safe=False)
+    form = request.GET or None
+    return JsonResponse(form, safe=False)
