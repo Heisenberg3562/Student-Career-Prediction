@@ -12,3 +12,6 @@ sklearn==0.0
 virtualenv==20.0.20
 virtualenv-clone==0.5.4
 whitenoise==5.2.0
+djangorestframework==3.12.4
+markdown==3.3.4
+django-filter==2.4.0
