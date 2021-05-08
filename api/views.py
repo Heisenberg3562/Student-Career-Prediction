@@ -35,12 +35,12 @@ def predict(request):
                        'self-learning capability?', 'Extra-courses did', 'olympiads',
                        'reading and writing skills', 'Management or Technical', 'hard/smart worker',
                        'worked in teams ever?']
-        for i,j in zip(range(len(request.GET)-1),columns):
+        for i, j in zip(range(len(request.GET)), columns):
             li.append(int(request.GET['input'+str(i)]))
         normalized_data = Normalizer().fit_transform([li])
-        for i,j in zip(range(len(request.POST)-1),columns):
+        for i, j in zip(range(len(request.GET)), columns):
             input[j] = normalized_data[0][i]
-        df = pd.DataFrame(input,index=[0])
+        df = pd.DataFrame(input, index=[0])
         model = joblib.load('static/svm.pkl')
         labelencoder = joblib.load('static/label.pkl')
         # results = model.predict(df)
