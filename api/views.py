@@ -16,4 +16,4 @@ def apiOverview(request):
 
 @api_view(['GET'])
 def predict(request):
-    return Response(request)
+    return JsonResponse(request)
