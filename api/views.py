@@ -43,7 +43,7 @@ def predict(request):
         df = pd.DataFrame(input,index=[0])
         model = joblib.load('static/svm.pkl')
         labelencoder = joblib.load('static/label.pkl')
-        results = model.predict(df)
-        prediction = labelencoder.inverse_transform(results)
-        criteria['prediction'] = prediction[0]
+        # results = model.predict(df)
+        # prediction = labelencoder.inverse_transform(results)
+        # criteria['prediction'] = prediction[0]
     return JsonResponse(input, safe=False)
