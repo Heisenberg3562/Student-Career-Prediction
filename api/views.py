@@ -24,7 +24,6 @@ def predict(request):
     if form:
         input = dict()
         li = []
-        criteria = {}
         columns=['Acedamic percentage in Operating Systems', 'percentage in Algorithms',
                        'Percentage in Programming Concepts',
                        'Percentage in Software Engineering', 'Percentage in Computer Networks',
@@ -47,4 +46,4 @@ def predict(request):
         results = model.predict(df)
         prediction = labelencoder.inverse_transform(results)
         criteria['prediction'] = prediction[0]
-    return JsonResponse(criteria, safe=False)
+    return JsonResponse(input, safe=False)
