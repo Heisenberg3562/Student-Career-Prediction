@@ -46,4 +46,4 @@ def predict(request):
         results = model.predict(df)
         prediction = labelencoder.inverse_transform(results)
         criteria['prediction'] = prediction[0]
-    return Response(criteria)
+    return Response(criteria, headers= {'Access-Control-Allow-Origin': '*'})
