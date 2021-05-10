@@ -40,4 +40,4 @@ def index(request):
         print(prediction)
         criteria['prediction'] = prediction[0]
 
-    return render(request, 'index-creative.html',criteria)
+    return render(request, 'index-creative.html', criteria)

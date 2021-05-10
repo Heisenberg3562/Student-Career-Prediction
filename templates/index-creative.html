@@ -354,7 +354,7 @@
         <h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">OUR COMMUNITY</h6>
         <h2 class="mt-4 mb-4">We are optimists who love to work together</h2>
         <p>Take your career to next level. Apply to our team and see what we can do together. You’re good enough, right ?</p>
-        <form id="predict" method="get" action=".">
+        <form id="predict" method="post" action=".">
             {% csrf_token %}
             <div class="row">
                 <div class="form-group col-md-3">
@@ -715,7 +715,6 @@ Let’s create something extraordinary
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 {% if prediction %}
 <script>
-    console.log('Hi');
 Swal.fire({
   title: 'Prediction!',
   text: "{{ prediction }}",
