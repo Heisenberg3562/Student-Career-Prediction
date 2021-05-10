@@ -715,10 +715,9 @@ Let’s create something extraordinary
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 {% if prediction %}
 <script>
-    var str = {{ prediction }};
 Swal.fire({
   title: 'Prediction!',
-  text: str,
+  text: "{{ prediction }}",
   icon: 'success',
   confirmButtonText: 'Cool'
 })
