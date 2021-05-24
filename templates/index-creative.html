@@ -742,7 +742,7 @@ Let’s create something extraordinary
 <script>
 Swal.fire({
   title: 'Prediction!',
-  text: "{{ prediction }}".replace('&amp;', /&/g).replace('&lt;', /</g).replace('&gt;', />/g).replace('&quot;', /"/g),
+  text: "{{ prediction }}".replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>').replace('&quot;', '"'),
   icon: 'success',
   confirmButtonText: 'Cool'
 })
