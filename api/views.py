@@ -48,5 +48,5 @@ def predict(request):
         labelencoder = joblib.load('static/label.pkl')
         results = model.predict(df)
         prediction = labelencoder.inverse_transform(results)
-        criteria['prediction'] = prediction[0]
+        criteria['prediction'] = prediction[0]+results[0]
     return Response(criteria, headers= {'Access-Control-Allow-Origin': '*'})
