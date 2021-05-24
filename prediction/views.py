@@ -38,7 +38,7 @@ def index(request):
         labelencoder = joblib.load('static/label.pkl')
         results = model.predict(df)
         print(results)
-        results = pd.DataFrame(results, columns=["Suggested Job Role"])
+        # results = pd.DataFrame(results)
         prediction = labelencoder.inverse_transform(results)
         print(prediction)
         criteria['prediction'] = prediction[0]
