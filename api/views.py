@@ -5,6 +5,7 @@ from rest_framework.response import Response
 from sklearn.preprocessing import Normalizer
 import joblib
 import pandas as pd
+import numpy as np
 
 
 # Create your views here.
@@ -35,9 +36,11 @@ def predict(request):
                        'self-learning capability?', 'Extra-courses did', 'olympiads',
                        'reading and writing skills', 'Management or Technical', 'hard/smart worker',
                        'worked in teams ever?']
-        for i, j in zip(range(len(request.GET)), columns):
+        for i in range(len(request.GET)):
             li.append(int(request.GET['input'+str(i)]))
-        normalized_data = Normalizer().fit_transform([li])
+        normalized_data1 = Normalizer().fit_transform([li[:14]])
+        normalized_data2 = Normalizer().fit_transform([li[14:]])
+        normalized_data = np.append(normalized_data1, normalized_data2, axis=1)
         for i, j in zip(range(len(request.GET)), columns):
             input[j] = normalized_data[0][i]
         df = pd.DataFrame(input, index=[0])
