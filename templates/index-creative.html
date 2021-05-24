@@ -32,10 +32,10 @@
 <div class="navbar-header">
 <a class="navbar-brand" href="index-creative.html" rel="home">
 <span class="navbar-brand-inner">
-<img class="logo-dark" src="{% static 'assets/img/logo/logo-1.svg' %}" alt="Ave HTML Template">
-<img class="logo-sticky" src="{% static 'assets/img/logo/logo-1.svg' %}" alt="Ave HTML Template">
-<img class="mobile-logo-default" src="{% static 'assets/img/logo/logo-1.svg' %}" alt="Ave HTML Template">
-<img class="logo-default" src="{% static 'assets/img/logo/logo-1.svg' %}" alt="Ave HTML Template">
+<img class="logo-dark" src="{% static 'assets/img/logo/C4H2.svg' %}" alt="Career4Hub">
+<img class="logo-sticky" src="{% static 'assets/img/logo/C4H2.svg' %}" alt="Career4Hub">
+<img class="mobile-logo-default" src="{% static 'assets/img/logo/C4H2.svg' %}" alt="Career4Hub">
+<img class="logo-default" src="{% static 'assets/img/logo/C4H2.svg' %}" alt="Career4Hub">
 </span>
 </a>
 <button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
@@ -323,9 +323,7 @@
 </div>
 <div class="contents">
 <h3 class="mb-2">Validation/Data Collection</h3>
-<p>A validation study was conducted to establish that the assessment would meet its construct and measure its intended purpose./Collection of data is one of the major and most important tasks because the input we
-feed to the algorithms is data. So, the algorithms efficiency and
-accuracy depends upon the correctness and quality of data collected</p>
+<p>A validation study was conducted to establish that the assessment would meet its construct and measure its intended purpose.</p>
 </div>
 </div>
 </div>
@@ -508,146 +506,68 @@ accuracy depends upon the correctness and quality of data collected</p>
 </div>
 </div>
 </section>
-<section class="vc_row pt-200 pb-100" id="testimonials">
+    <section class="vc_row pt-200 pb-100" id="about">
 <div class="container">
-<div class="row">
-<div class="lqd-column col-lg-4 col-md-12" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
-<header class="fancy-title mb-130">
-<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">TESTIMONIALS</h6>
-<h2 class="mt-4 mb-4">What they said</h2>
-<p>We’re humbled to be working with such a great variety of clients that range from early stage startups to Fortune 500 companies.</p>
+<div class="row d-flex flex-wrap align-items-center">
+<div class="lqd-column col-md-5 hidden-xs hidden-sm">
+<div class="lqd-parallax-team-members">
+<div class="liquid-img-group-container">
+<div class="liquid-img-group-inner">
+<div class="liquid-img-group-single" data-roundness="4">
+<div class="liquid-img-group-img-container">
+<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":47}' data-parallax-to='{"translateY":-74}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
+<figure>
+<img src="{% static 'assets/demo/team/team-4.jpg' %}" alt="Team Member" />
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="liquid-img-group-container">
+<div class="liquid-img-group-inner">
+<div class="liquid-img-group-single" data-roundness="4">
+<div class="liquid-img-group-img-container">
+<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":83}' data-parallax-to='{"translateY":-94}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
+<figure>
+<img src="{% static 'assets/demo/team/team-5.jpg' %}" alt="Team Member" />
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="liquid-img-group-container">
+<div class="liquid-img-group-inner">
+<div class="liquid-img-group-single" data-roundness="4">
+<div class="liquid-img-group-img-container">
+<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":167}' data-parallax-to='{"translateY":-151}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
+<figure>
+<img src="{% static 'assets/demo/team/team-6.jpg' %}" alt="Team Member" />
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lqd-column col-md-6 col-md-offset-1" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+<header class="fancy-title mb-60">
+<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">OUR COMMUNITY</h6>
+<h2 class="mt-4 mb-4">We are optimists who love to work together</h2>
+<p>Take your career to next level. Apply to our team and see what we can do together. You’re good enough, right ?</p>
 </header>
-</div>
-<div class="lqd-column col-lg-7 col-lg-offset-1 col-xs-12 mb-7 mb-md-0">
-<div class="carousel-container carousel-vertical-3d">
-<div class="carousel-items">
-<div class="carousel-item is-active">
-<div class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
-<div class="testimonial-quote">
-<blockquote>
-<p class="font-size-16 lh-185">
-<!--    {% if prediction %}-->
-<!--        {{ prediction }}-->
-<!--    {% else %}-->
-<!--        “Original, creative and with an innate understanding of their customer’s needs, the team at Ave Agency are always a pleasure to work with.”-->
-<!--    {% endif %}-->
-    {{ result }}
-</p>
-</blockquote>
-</div>
-<div class="testimonial-details">
-<figure class="avatar ">
-<img src="{% static 'assets/demo/testimonials/testi-3.png' %}" alt="Suke Tran">
-</figure>
-<div class="testimonial-info">
-<h5>Suke Tran</h5>
-<h6 class="font-weight-normal">Sumo Founder</h6>
-</div>
-<time datetime="2017-07-07" class="text-uppercase">Now</time>
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
-<div class="testimonial-quote">
-<blockquote>
-<p class="font-size-16 lh-185">“Original, creative and with an innate understanding of their customer’s needs, the team at Ave Agency are always a pleasure to work with.”</p>
-</blockquote>
-</div>
-<div class="testimonial-details">
-<figure class="avatar ">
-<img src="{% static 'assets/demo/testimonials/testi-4.png' %}" alt="Suke Tran">
-</figure>
-<div class="testimonial-info">
-<h5>Suke Tran</h5>
-<h6 class="font-weight-normal">Sumo Founder</h6>
-</div>
-<time datetime="2017-07-07" class="text-uppercase">Now</time>
-</div>
-</div>
-</div>
-<div class="carousel-item">
-<div class="testimonial testimonial-whole-filled testimonial-whole-shadowed text-left testimonial-details-sm testimonial-avatar-sm">
-<div class="testimonial-quote">
-<blockquote>
-<p class="font-size-16 lh-185">“Original, creative and with an innate understanding of their customer’s needs, the team at Ave Agency are always a pleasure to work with.”</p>
-</blockquote>
-</div>
-<div class="testimonial-details">
-<figure class="avatar">
-<img src="{% static 'assets/demo/testimonials/testi-5.png' %}" alt="Suke Tran">
-</figure>
-<div class="testimonial-info">
-<h5>Suke Tran</h5>
-<h6 class="font-weight-normal">Sumo Founder</h6>
-</div>
-<time datetime="2017-07-07" class="text-uppercase">Now</time>
-</div>
-</div>
-</div>
-</div>
-</div>
+<a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+<span>
+<span class="btn-txt">Join the team</span>
+</span>
+</a>
 </div>
 </div>
 </div>
 </section>
-<section class="vc_row pt-100 pb-70" id="news">
-<div class="container">
-<div class="row">
-<div class="lqd-column col-md-12">
-<div class="liquid-blog-posts">
-<div class="liquid-blog-grid row">
-<div class="lqd-column col-md-4">
-<article class="liquid-lp">
-<figure class="liquid-lp-media rounded">
-<a href="#">
-<img src="{% static 'assets/demo/blog/blog-6.jpg' %}" alt="Blog Post">
-</a>
-</figure>
-<header class="liquid-lp-header">
-<h2 class="entry-title liquid-lp-title h5">
-<a href="#" rel="bookmark">Kobe Steel plant that supplied plane components being checked</a>
-</h2>
-<time class="liquid-lp-date font-style-italic size-lg" datetime="2019-08-16T11:33:03+00:00">5 months ago</time>
-</header>
-</article>
- </div>
-<div class="lqd-column col-md-4">
-<article class="liquid-lp">
-<figure class="liquid-lp-media rounded">
-<a href="#">
-<img src="{% static 'assets/demo/blog/blog-7.jpg' %}" alt="Blog Post">
-</a>
-</figure>
-<header class="liquid-lp-header">
-<h2 class="entry-title liquid-lp-title h5">
-<a href="#" rel="bookmark">Trade Show 2017 promotions</a>
-</h2>
-<time class="liquid-lp-date font-style-italic size-lg" datetime="2019-08-16T11:32:46+00:00">5 months ago</time>
-</header>
-</article>
-</div>
-<div class="lqd-column col-md-4">
-<article class="liquid-lp category-news category-rounded">
-<figure class="liquid-lp-media rounded">
-<a href="#">
-<img src="{% static 'assets/demo/blog/blog-8.jpg' %}" alt="Blog Post">
-</a>
-</figure>
-<header class="liquid-lp-header">
-<h2 class="entry-title liquid-lp-title h5">
-<a href="#" rel="bookmark">Believing is the absence of doubt</a>
-</h2>
-<time class="liquid-lp-date font-style-italic size-lg" datetime="2019-08-16T11:32:32+00:00">5 months ago</time>
-</header>
-</article>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+
 <section class="vc_row pt-50 pb-60">
 <div class="container">
 <div class="row">
@@ -717,7 +637,7 @@ Let’s create something extraordinary
 <div class="row">
 <div class="lqd-column col-md-6 col-md-offset-3 text-center">
 <figure class="mb-40">
-<img src="{% static 'assets/img/logo/logo-1.svg' %}" alt="Logo">
+<img src="{% static 'assets/img/logo/C4H2.svg' %}" alt="Logo">
 </figure>
 <p>© 2021 Career4Hub. All Rights Reserved.</p>
 </div>
