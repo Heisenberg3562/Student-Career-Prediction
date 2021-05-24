@@ -26,7 +26,7 @@ def index(request):
         for i in range(len(request.POST)-1):
             li.append(int(request.POST['input'+str(i)]))
         normalized_data1 = Normalizer().fit_transform([li[:14]])
-        normalized_data2 = Normalizer().fit_transform([li[14:21]])
+        normalized_data2 = Normalizer().fit_transform([li[14:]])
         normalized_data = np.append(normalized_data1, normalized_data2, axis=1)
         print(normalized_data)
         for i,j in zip(range(len(request.POST)-1),columns):
