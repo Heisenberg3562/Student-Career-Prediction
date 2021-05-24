@@ -36,5 +36,4 @@ def index(request):
         results = model.predict(df)
         prediction = labelencoder.inverse_transform(results)
         criteria['prediction'] = prediction[0]
-        criteria['result'] = results[0]
     return render(request, 'index-creative.html', criteria)
