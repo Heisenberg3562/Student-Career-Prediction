@@ -25,7 +25,7 @@ SECRET_KEY = 'mrh_fxn936rs#chk0^a456&0gw#h)ej67-uotk3$yy(90y!-l9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://career4hub.herokuapp.com','career4hub.herokuapp.com','.herokuapp.com']
+ALLOWED_HOSTS = ["*",'https://career4hub.herokuapp.com','career4hub.herokuapp.com','.herokuapp.com']
 
 
 # Application definition
