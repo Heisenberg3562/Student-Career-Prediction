@@ -5,7 +5,7 @@ yourself to a better career path if your capabilities are not up
 to the mark to reach their goal and pre-evaluate yourselves
 before going to the career peek point.
 
-Site url : https://career4hub.herokuapp.com/
+Site url : https://career4hub.devomkar.com/
 
 ## API Endpoint
 
